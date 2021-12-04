@@ -109,7 +109,7 @@ async def bot_start(event):
                         \n\nPowered by [waruserbot](https://t.me/waruserbot)"
         buttons = [
             (
-                Button.url("Repo", "https:/t.me/waruserbot"),
+                Button.url("Repo", "https://t.me/waruserbot"),
                 Button.url(
                     "Deploy",
                     "https://t.me/waruserbot",
