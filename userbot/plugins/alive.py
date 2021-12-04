@@ -86,7 +86,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Catuserbot Version :** `{catver}`
 **{EMOJI} Python Version :** `{pyver}`
 **{EMOJI} Database :** `{dbhealth}`
-**{EMOJI} Creator :** `{@xAbhish3k}`"""
+**{EMOJI} Creator :** `{**@xAbhish3k**}`"""
 
 
 @catub.cat_cmd(
