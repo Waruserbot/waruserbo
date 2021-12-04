@@ -86,7 +86,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Catuserbot Version :** `{catver}`
 **{EMOJI} Python Version :** `{pyver}`
 **{EMOJI} Database :** `{dbhealth}`
-**{EMOJI} Creator :** `{**@xAbhish3k**}`"""
+
 
 
 @catub.cat_cmd(
@@ -105,7 +105,7 @@ async def amireallyalive(event):
     reply_to_id = await reply_id(event)
     EMOJI = gvarstatus("ALIVE_EMOJI") or "✧✧"
 
-    cat_caption = "**Catuserbot is Up and Running**\n"
+    cat_caption = "**Waruserbot is Up and Running**\n"
     cat_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
     cat_caption += f"**{EMOJI} Catuserbot Version :** `{catversion}`\n"
     cat_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
