@@ -88,6 +88,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Database :** `{dbhealth}`
 **{EMOJI} Creator :** `{@xAbhish3k}`"""
 
+
 @catub.cat_cmd(
     pattern="ialive$",
     command=("ialive", plugin_category),
