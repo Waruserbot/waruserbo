@@ -111,7 +111,7 @@ async def grpinfo():
 
 
 async def cmdlist():
-    outstr = "**Total list of Commands in your Catuserbot are :**\n\n"
+    outstr = "**Total list of Commands in your Waruserbot are :**\n\n"
     category = ["admin", "bot", "fun", "misc", "tools", "utils", "extra"]
     for cat in category:
         plugins = GRP_INFO[cat]
@@ -130,7 +130,7 @@ async def cmdlist():
     pattern="help ?(-c|-p|-t)? ?([\s\S]*)?",
     command=("help", plugin_category),
     info={
-        "header": "To get guide for catuserbot.",
+        "header": "To get guide for waruserbot.",
         "description": "To get information or guide for the command or plugin",
         "note": "if command name and plugin name is same then you get guide for plugin. So by using this flag you get command guide",
         "flags": {
@@ -146,7 +146,7 @@ async def cmdlist():
     },
 )
 async def _(event):
-    "To get guide for catuserbot."
+    "To get guide for waruserbot."
     flag = event.pattern_match.group(1)
     input_str = event.pattern_match.group(2)
     reply_to_id = await reply_id(event)
@@ -197,7 +197,7 @@ async def _(event):
             outstr += f"  - `{cmdprefix}{cmd}`\n"
         outstr += f"**👩‍💻 Usage : ** `{cmdprefix}help -c <command name>`"
     await edit_or_reply(
-        event, outstr, aslink=True, linktext="Total Commands of Catuserbot are :"
+        event, outstr, aslink=True, linktext="Total Commands of Waruserbot are :"
     )
 
 
