@@ -45,7 +45,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**✮ MY WARBOT IS RUNNING SUCCESSFULLY ✮**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**❤️‍🔥 MY WARBOT IS RUNNING SUCCESSFULLY ❤️‍🔥**"
     CAT_IMG = gvarstatus("ALIVE_PIC")
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = cat_caption.format(
@@ -80,7 +80,7 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} Master:** {mention}
+**{EMOJI} Owner:** {mention}
 **{EMOJI} Uptime :** `{uptime}`
 **{EMOJI} Telethon Version :** `{telever}`
 **{EMOJI} Catuserbot Version :** `{catver}`
@@ -102,7 +102,7 @@ temp = """{ALIVE_TEXT}
 async def amireallyalive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "✧✧"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
 
     cat_caption = "**Waruserbot is Up and Running**\n"
     cat_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
