@@ -46,7 +46,7 @@ async def amireallyalive(event):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
     ALIVE_TEXT = (
-        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥 MY WARBOT IS RUNNING SUCCESSFULLY ❤️‍🔥**"
+        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥 MY WARUSERBOT IS RUNNING SUCCESSFULLY ❤️‍🔥**"
     )
     CAT_IMG = gvarstatus("ALIVE_PIC")
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
