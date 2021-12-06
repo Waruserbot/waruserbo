@@ -133,7 +133,7 @@ async def bad(event):  # sourcery no-metrics
     pattern="custom (pmpermit|pmblock|startmsg)$",
     command=("custom", plugin_category),
     info={
-        "header": "To customize your CatUserbot.",
+        "header": "To customize your WarUserbot.",
         "options": {
             "pmpermit": "To customize pmpermit text. ",
             "pmblock": "To customize pmpermit block message.",
