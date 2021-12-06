@@ -1,7 +1,7 @@
 """
 Created by @Jisan7509
 modified by  @mrconfused
-Userbot plugin for CatUserbot
+Userbot plugin for warUserbot
 """
 from userbot import catub
 
@@ -17,7 +17,7 @@ plugin_category = "fun"
     info={
         "header": "Converts your text to big emoji text, with some default emojis.\n use @ symbol for line space",
         "usage": "{tr}emoji <text>",
-        "examples": ["{tr}emoji catuserbot"],
+        "examples": ["{tr}emoji waruserbot"],
     },
 )
 async def itachi(event):
@@ -48,7 +48,7 @@ async def itachi(event):
     info={
         "header": "Converts your text to big emoji text, with your custom emoji.\n use @ symbol for line space.",
         "usage": "{tr}cmoji <emoji> <text>",
-        "examples": ["{tr}cmoji 😺 catuserbot"],
+        "examples": ["{tr}cmoji 😺 waruserbot"],
     },
 )
 async def itachi(event):
