@@ -28,7 +28,7 @@ plugin_category = "fun"
     info={
         "header": "Fake google search meme",
         "usage": "{tr}fakegs search query ; what you mean text",
-        "examples": "{tr}fakegs Catuserbot ; One of the Popular userbot",
+        "examples": "{tr}fakegs Waruserbot ; One of the Popular userbot",
     },
 )
 async def nekobot(cat):
@@ -65,7 +65,7 @@ async def nekobot(cat):
     info={
         "header": "trump tweet sticker with given custom text",
         "usage": "{tr}trump <text>",
-        "examples": "{tr}trump Catuserbot is One of the Popular userbot",
+        "examples": "{tr}trump Waruserbot is One of the Popular userbot",
     },
 )
 async def nekobot(cat):
@@ -96,7 +96,7 @@ async def nekobot(cat):
     info={
         "header": "modi tweet sticker with given custom text",
         "usage": "{tr}modi <text>",
-        "examples": "{tr}modi Catuserbot is One of the Popular userbot",
+        "examples": "{tr}modi Waruserbot is One of the Popular userbot",
     },
 )
 async def nekobot(cat):
@@ -127,7 +127,7 @@ async def nekobot(cat):
     info={
         "header": "Change my mind banner with given custom text",
         "usage": "{tr}cmm <text>",
-        "examples": "{tr}cmm Catuserbot is One of the Popular userbot",
+        "examples": "{tr}cmm Waruserbot is One of the Popular userbot",
     },
 )
 async def nekobot(cat):
@@ -157,7 +157,7 @@ async def nekobot(cat):
     info={
         "header": "kanna chan sticker with given custom text",
         "usage": "{tr}kanna text",
-        "examples": "{tr}kanna Catuserbot is One of the Popular userbot",
+        "examples": "{tr}kanna Waruserbot is One of the Popular userbot",
     },
 )
 async def nekobot(cat):
@@ -188,7 +188,7 @@ async def nekobot(cat):
     info={
         "header": "The desired person tweet sticker with given custom text",
         "usage": "{tr}tweet <username> ; <text>",
-        "examples": "{tr}tweet iamsrk ; Catuserbot is One of the Popular userbot",
+        "examples": "{tr}tweet iamsrk ; Waruserbot is One of the Popular userbot",
     },
 )
 async def nekobot(cat):
