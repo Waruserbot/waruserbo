@@ -10,7 +10,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 __version__ = "3.0.5"
 __license__ = "GNU Affero General Public License v3.0"
 __author__ = "WarUserBot <https://github.com/xAbhish3k/waruserbot>"
-__copyright__ = "CatUserBot Copyright (C) 2020 - 2021  " + __author__
+__copyright__ = "WarUserBot Copyright (C) 2020 - 2021  " + __author__
 
 catub.version = __version__
 catub.tgbot.version = __version__
@@ -20,9 +20,9 @@ bot = catub
 StartTime = time.time()
 catversion = "3.0.4"
 
-if Config.UPSTREAM_REPO == "badcat":
+if Config.UPSTREAM_REPO == "waruser":
     UPSTREAM_REPO_URL = "https://github.com/xAbhish3k/waruserbot"
-elif Config.UPSTREAM_REPO == "goodcat":
+elif Config.UPSTREAM_REPO == "warusers":
     UPSTREAM_REPO_URL = "https://github.com/xAbhish3k/waruserbot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
