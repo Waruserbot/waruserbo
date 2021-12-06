@@ -1,4 +1,4 @@
-# image search for catuserbot
+# image search for waruserbot
 import os
 import shutil
 
