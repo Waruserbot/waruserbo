@@ -17,7 +17,7 @@ plugin_category = "extra"
             "{tr}fmusical <text>",
             "{tr}fmusical reply this command to text message",
         ],
-        "examples": "{tr}fmusical catuserbot",
+        "examples": "{tr}fmusical waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -48,7 +48,7 @@ async def stylish_generator(event):
             "{tr}ancient <text>",
             "{tr}ancient reply this command to text message",
         ],
-        "examples": "{tr}ancient catuserbot",
+        "examples": "{tr}ancient warauserbot",
     },
 )
 async def stylish_generator(event):
@@ -76,7 +76,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}vapor <text>", "{tr}vapor reply this command to text message"],
-        "examples": "{tr}vapor catuserbot",
+        "examples": "{tr}vapor waruserbot",
     },
 )
 async def vapor(event):
@@ -112,7 +112,7 @@ async def vapor(event):
             "{tr}smallcaps <text>",
             "{tr}smallcaps reply this command to text message",
         ],
-        "examples": "{tr}smallcaps catuserbot",
+        "examples": "{tr}smallcaps waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -143,7 +143,7 @@ async def stylish_generator(event):
             "{tr}blackbf <text>",
             "{tr}blackbf reply this command to text message",
         ],
-        "examples": "{tr}blackbf catuserbot",
+        "examples": "{tr}blackbf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -174,7 +174,7 @@ async def stylish_generator(event):
             "{tr}bubbles <text>",
             "{tr}bubbles reply this command to text message",
         ],
-        "examples": "{tr}bubbles catuserbot",
+        "examples": "{tr}bubbles waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -202,7 +202,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}tanf <text>", "{tr}tanf reply this command to text message"],
-        "examples": "{tr}tanf catuserbot",
+        "examples": "{tr}tanf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -230,7 +230,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}boxf <text>", "{tr}boxf reply this command to text message"],
-        "examples": "{tr}boxf catuserbot",
+        "examples": "{tr}boxf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -261,7 +261,7 @@ async def stylish_generator(event):
             "{tr}smothtext <text>",
             "{tr}smothtext reply this command to text message",
         ],
-        "examples": "{tr}smothtext catuserbot",
+        "examples": "{tr}smothtext waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -289,7 +289,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}egyptf <text>", "{tr}egyptf reply this command to text message"],
-        "examples": "{tr}egyptf catuserbot",
+        "examples": "{tr}egyptf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -317,7 +317,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}maref <text>", "{tr}maref reply this command to text message"],
-        "examples": "{tr}maref catuserbot",
+        "examples": "{tr}maref waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -345,7 +345,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}handcf <text>", "{tr}handcf reply this command to text message"],
-        "examples": "{tr}handcf catuserbot",
+        "examples": "{tr}handcf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -376,7 +376,7 @@ async def stylish_generator(event):
             "{tr}doublef <text>",
             "{tr}doublef reply this command to text message",
         ],
-        "examples": "{tr}doublef catuserbot",
+        "examples": "{tr}doublef waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -404,7 +404,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}mock <text>", "{tr}mock reply this command to text message"],
-        "examples": "{tr}mock catuserbot",
+        "examples": "{tr}mock waruserbot",
     },
 )
 async def spongemocktext(mock):
@@ -436,7 +436,7 @@ async def spongemocktext(mock):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}ghostf <text>", "{tr}ghostf reply this command to text message"],
-        "examples": "{tr}ghostf catuserbot",
+        "examples": "{tr}ghostf waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -464,7 +464,7 @@ async def stylish_generator(event):
     info={
         "header": "Font style command.(Changes font style of the given text)",
         "usage": ["{tr}handsf <text>", "{tr}handsf reply this command to text message"],
-        "examples": "{tr}handsf catuserbot",
+        "examples": "{tr}handsf waruserbot",
     },
 )
 async def stylish_generator(event):
