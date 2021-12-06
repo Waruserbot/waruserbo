@@ -42,7 +42,7 @@ async def stretch(stret):
     info={
         "header": "chages given text into some funny way",
         "usage": ["{tr}zal <text>", "{tr}zal reply this command to text message"],
-        "examples": "{tr}zal catuserbot",
+        "examples": "{tr}zal waruserbot",
     },
 )
 async def zal(zgfy):
@@ -86,7 +86,7 @@ async def zal(zgfy):
     info={
         "header": "chages given text into some funny way",
         "usage": ["{tr}cp <text>", "{tr}cp reply this command to text message"],
-        "examples": "{tr}cp catuserbot",
+        "examples": "{tr}cp waruserbot",
     },
 )
 async def copypasta(cp_e):
@@ -125,7 +125,7 @@ async def copypasta(cp_e):
     info={
         "header": "chages given text into some funny way",
         "usage": ["{tr}weeb <text>", "{tr}weeb reply this command to text message"],
-        "examples": "{tr}weeb catuserbot",
+        "examples": "{tr}weeb waruserbot",
     },
 )
 async def weebify(event):
@@ -154,7 +154,7 @@ async def weebify(event):
             "{tr}downside <text>",
             "{tr}downside reply this command to text message",
         ],
-        "examples": "{tr}downside catuserbot",
+        "examples": "{tr}downside waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -185,7 +185,7 @@ async def stylish_generator(event):
             "{tr}subscript <text>",
             "{tr}subscript reply this command to text message",
         ],
-        "examples": "{tr}subscript catuserbot",
+        "examples": "{tr}subscript waruserbot",
     },
 )
 async def stylish_generator(event):
@@ -216,7 +216,7 @@ async def stylish_generator(event):
             "{tr}superscript <text>",
             "{tr}superscript reply this command to text message",
         ],
-        "examples": "{tr}superscript catuserbot",
+        "examples": "{tr}superscript waruserbot",
     },
 )
 async def stylish_generator(event):
