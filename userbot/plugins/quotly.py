@@ -41,7 +41,7 @@ def get_warp_length(width):
             "-s": "To output file as sticker",
         },
         "usage": "{tr}qpic <flag> <input/reply to text msg>",
-        "examples": ["{tr}qpic CatUserbot.", "{tr}qpic -b CatUserbot."],
+        "examples": ["{tr}qpic WarUserbot.", "{tr}qpic -b WarUserbot."],
     },
 )
 async def q_pic(event):  # sourcery no-metrics
@@ -126,10 +126,10 @@ async def q_pic(event):  # sourcery no-metrics
         )
     output = io.BytesIO()
     if sticker:
-        output.name = "CatUserbot.Webp"
+        output.name = "WarUserbot.Webp"
         img.save(output, "webp")
     else:
-        output.name = "CatUserbot.png"
+        output.name = "WarUserbot.png"
         img.save(output, "PNG")
     output.seek(0)
     await event.client.send_file(event.chat_id, output, reply_to=reply_to)
