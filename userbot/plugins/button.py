@@ -1,5 +1,5 @@
 #    Copyright (C) 2020  sandeep.n(π.$)
-# button post makker for catuserbot thanks to uniborg for the base
+# button post makker for waruserbot thanks to uniborg for the base
 
 # by @sandy1709 (@mrconfused)
 import os
@@ -27,7 +27,7 @@ BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>
         "usage": [
             "{tr}cbutton <text> [Name on button]<buttonurl:link you want to open>",
         ],
-        "examples": "{tr}cbutton test [google]<buttonurl:https://www.google.com> [catuserbot]<buttonurl:https://t.me/catuserbot17:same> [support]<buttonurl:https://t.me/catuserbot_support>",
+        "examples": "{tr}cbutton test [google]<buttonurl:https://www.google.com> [waruserbot]<buttonurl:https://t.me/waruserbot:same> [support]<buttonurl:https://t.me/waruserbotsupport>",
     },
 )
 async def _(event):
@@ -93,7 +93,7 @@ async def _(event):
         "usage": [
             "{tr}ibutton <text> [Name on button]<buttonurl:link you want to open>",
         ],
-        "examples": "{tr}ibutton test [google]<buttonurl:https://www.google.com> [catuserbot]<buttonurl:https://t.me/catuserbot17:same> [support]<buttonurl:https://t.me/catuserbot_support>",
+        "examples": "{tr}ibutton test [google]<buttonurl:https://www.google.com> [waruserbot]<buttonurl:https://t.me/waruserbot:same> [support]<buttonurl:https://t.me/waruserbotsupport>",
     },
 )
 async def _(event):
