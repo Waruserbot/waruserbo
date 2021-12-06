@@ -68,8 +68,8 @@ def verify_cond(catarray, text):
 
 def pack_name(userid, pack, is_anim):
     if is_anim:
-        return f"catuserbot_{userid}_{pack}_anim"
-    return f"catuserbot_{userid}_{pack}"
+        return f"waruserbot_{userid}_{pack}_anim"
+    return f"waruserbot_{userid}_{pack}"
 
 
 def char_is_emoji(character):
@@ -313,7 +313,7 @@ async def kang(args):  # sourcery no-metrics
         return
     if photo:
         splat = ("".join(args.text.split(maxsplit=1)[1:])).split()
-        emoji = emoji if emojibypass else "😂"
+        emoji = emoji if emojibypass else "⚡"
         pack = 1
         if len(splat) == 2:
             if char_is_emoji(splat[0][0]):
