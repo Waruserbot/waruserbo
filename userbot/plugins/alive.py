@@ -85,7 +85,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Owner:** {mention}
 **{EMOJI} Uptime :** `{uptime}`
 **{EMOJI} Telethon Version :** `{telever}`
-**{EMOJI} Catuserbot Version :** `{catver}`
+**{EMOJI} Waruserbot Version :** `{catver}`
 **{EMOJI} Python Version :** `{pyver}`
 **{EMOJI} Database :** `{dbhealth}`"""
 
