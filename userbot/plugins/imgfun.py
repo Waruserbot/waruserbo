@@ -46,10 +46,10 @@ async def imirror(event):  # sourcery no-metrics
     catevent = await event.edit("__Reflecting the image....__")
     args = event.pattern_match.group(1)
     if args:
-        filename = "catuserbot.webp"
+        filename = "waruserbot.webp"
         f_format = "webp"
     else:
-        filename = "catuserbot.jpg"
+        filename = "waruserbot.jpg"
         f_format = "jpeg"
     try:
         imag = await _cattools.media_to_pic(catevent, reply, noedits=True)
@@ -141,7 +141,7 @@ async def irotate(event):
         return await edit_delete(event, "**Error**\n" + str(e))
     await event.delete()
     img = io.BytesIO()
-    img.name = "CatUserbot.png"
+    img.name = "WarUserbot.png"
     image.save(img, "PNG")
     img.seek(0)
     await event.client.send_file(event.chat_id, img, reply_to=reply)
