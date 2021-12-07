@@ -48,7 +48,9 @@ async def amireallyalive(event):
     ALIVE_TEXT = (
         gvarstatus("ALIVE_TEXT") or "**❤️‍🔥 WARUSERBOT IS RUNNING SUCCESSFULLY ❤️‍🔥**"
     )
-    CAT_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
+    CAT_IMG = (
+        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
+    )
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = cat_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
