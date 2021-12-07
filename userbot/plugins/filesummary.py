@@ -1,4 +1,4 @@
-# file summary plugin for catuserbot  by @mrconfused
+# file summary plugin for waruserbot  by @xAbhish3k
 import time
 
 from prettytable import PrettyTable
@@ -36,7 +36,7 @@ def weird_division(n, d):
         "header": "Shows you the complete media/file summary of the that group.",
         "description": "As of now limited to last 10000 in the group u used",
         "usage": "{tr}chatfs <Username/id>",
-        "examples": "{tr}chatfs @catuserbot_support",
+        "examples": "{tr}chatfs @waruserbotsupport",
     },
 )
 async def _(event):  # sourcery no-metrics
