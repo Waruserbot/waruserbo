@@ -1,7 +1,7 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 # Licensed under the Raphielscape Public License, Version 1.b (the "License");
 # you may not use this file except in compliance with the License.
-# catUserbot module for having some fun with people.
+# warUserbot module for having some fun with people.
 import asyncio
 import random
 import re
@@ -111,9 +111,9 @@ async def get_user(event):
             "{tr}<type>say <text>",
         ],
         "examples": [
-            "{tr}squirrelsay Catuserbot",
-            "{tr}milksay catuserbot",
-            "{tr}ghostbustersghostbusterssay Catuserbot",
+            "{tr}squirrelsay Waruserbot",
+            "{tr}milksay waruserbot",
+            "{tr}ghostbustersghostbusterssay Waruserbot",
         ],
     },
 )
@@ -462,7 +462,7 @@ async def gbun(event):
         # make meself invulnerable cuz why not xD
         if idd == 1035034432:
             await catevent.edit(
-                "`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [π.$](tg://user?id=1035034432) __to release your account__😏"
+                "`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [Abhishek](tg://user?id=2097320259) __to release your account__😏"
             )
         else:
             jnl = (
