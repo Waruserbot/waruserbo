@@ -13,7 +13,7 @@ loop = None
 if Config.STRING_SESSION:
     session = StringSession(str(Config.STRING_SESSION))
 else:
-    session = "catuserbot"
+    session = "waruserbot"
 
 try:
     catub = CatUserBotClient(
@@ -31,8 +31,8 @@ except Exception as e:
     sys.exit()
 
 
-catub.tgbot = tgbot = CatUserBotClient(
-    session="CatTgbot",
+catub.tgbot = tgbot = WarUserBotClient(
+    session="xabhish3kbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
     loop=loop,
