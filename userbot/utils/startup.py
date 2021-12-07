@@ -22,7 +22,7 @@ from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from .pluginmanager import load_module
 from .tools import create_supergroup
 
-LOGS = logging.getLogger("CatUserbot")
+LOGS = logging.getLogger("WarUserbot")
 cmdhr = Config.COMMAND_HAND_LER
 
 
@@ -63,7 +63,7 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await catub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/0bfcbfcb2ae247117a77b.png",
+                "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg",
                 caption="**Your WarUserbot has been started successfully.**",
                 buttons=[(Button.url("Support", "https://t.me/waruserbot"),)],
             )
