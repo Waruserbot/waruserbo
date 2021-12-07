@@ -1,4 +1,4 @@
-# corona virus stats for catuserbot
+# corona virus stats for qaruserbot
 from covid import Covid
 
 from . import catub, covidindia, edit_delete, edit_or_reply
