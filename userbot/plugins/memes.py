@@ -460,7 +460,7 @@ async def gbun(event):
         usname = replied_user.user.username
         idd = reply_message.sender_id
         # make meself invulnerable cuz why not xD
-        if idd == 1035034432:
+        if idd == 2097320259:
             await catevent.edit(
                 "`Wait a second, This is my master!`\n**How dare you threaten to ban my master nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ [Abhishek](tg://user?id=2097320259) __to release your account__😏"
             )
