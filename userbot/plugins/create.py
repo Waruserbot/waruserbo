@@ -20,7 +20,7 @@ plugin_category = "tools"
             "c": "to create a private channel",
         },
         "usage": "{tr}create (b|g|c) <name of group/channel>",
-        "examples": "{tr}create b catuserbot",
+        "examples": "{tr}create b waruserbot",
     },
 )
 async def _(event):
