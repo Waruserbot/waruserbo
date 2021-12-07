@@ -109,10 +109,10 @@ async def bot_start(event):
                         \n\nPowered by [waruserbot](https://t.me/waruserbot)"
         buttons = [
             (
-                Button.url("Repo", "https://t.me/waruserbot"),
+                Button.url("Repo", "https://github.com/xAbhish3k/waruserbot"),
                 Button.url(
                     "Deploy",
-                    "https://t.me/waruserbot",
+                    "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FxAbhish3k%2Fwaruserbot&template=https%3A%2F%2Fgithub.com%2FxAbhish3k%2Fwaruserbot",
                 ),
             )
         ]
