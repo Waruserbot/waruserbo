@@ -1,5 +1,5 @@
-# created by @Jisan7509
-# CatUserbot
+
+# WarUserbot
 
 import os
 import urllib
