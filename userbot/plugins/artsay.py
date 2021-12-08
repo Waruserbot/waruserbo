@@ -1,6 +1,6 @@
 """
 Created by  Md Jisan.  tg @Jisan7509
-Plugin for CatUserbot
+Plugin for WarUserbot
 """
 
 from . import catub, edit_or_reply, mention
