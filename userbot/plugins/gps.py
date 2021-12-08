@@ -24,7 +24,7 @@ async def gps(event):
     reply_to_id = await reply_id(event)
     input_str = event.pattern_match.group(1)
     catevent = await edit_or_reply(event, "`finding.....`")
-    geolocator = Nominatim(user_agent="catuserbot")
+    geolocator = Nominatim(user_agent="waruserbot")
     geoloc = geolocator.geocode(input_str)
     if geoloc:
         lon = geoloc.longitude
