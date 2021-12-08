@@ -15,7 +15,7 @@ plugin_category = "utils"
 
 
 FF_MPEG_DOWN_LOAD_MEDIA_PATH = os.path.join(
-    Config.TMP_DOWNLOAD_DIRECTORY, "catuserbot.media.ffmpeg"
+    Config.TMP_DOWNLOAD_DIRECTORY, "waruserbot.media.ffmpeg"
 )
 
 # https://github.com/Nekmo/telegram-upload/blob/master/telegram_upload/video.py#L26
