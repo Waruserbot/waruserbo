@@ -110,7 +110,7 @@ async def typewriter(typew):
     info={
         "header": "repeats the given text with given no of times.",
         "usage": "{tr}repeat <count> <text>",
-        "examples": "{tr}repeat 10 catuserbot",
+        "examples": "{tr}repeat 10 waruserbot",
     },
 )
 async def _(event):
