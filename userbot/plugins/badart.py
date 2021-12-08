@@ -1,6 +1,6 @@
 """
 Created by @Jisan7509
-Plugin for CatUserbot
+Plugin for WarUserbot
 #credit @GulfysHalfyyyy
 """
 
