@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-CATLOGO = "https://telegra.ph/file/b623760657a2a47825c00.jpg"
+CATLOGO = "https://telegra.ph/file/2f7c23399b0b1d6f7116a.jpg"
 tr = Config.COMMAND_HAND_LER
 
 
@@ -225,7 +225,7 @@ async def inline_handler(event):  # sourcery no-metrics
         match2 = re.findall(inf, query)
         hid = re.compile("hide (.*)")
         match3 = re.findall(hid, query)
-        if query.startswith("**Catuserbot"):
+        if query.startswith("**Waruserbot"):
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
@@ -423,8 +423,8 @@ async def inline_handler(event):  # sourcery no-metrics
         elif string == "help":
             _result = main_menu()
             result = builder.article(
-                title="© CatUserbot Help",
-                description="Help menu for CatUserbot",
+                title="© WarUserbot Help",
+                description="Help menu for WarUserbot",
                 text=_result[0],
                 buttons=_result[1],
                 link_preview=False,
@@ -539,20 +539,20 @@ async def inline_handler(event):  # sourcery no-metrics
             if CAT_IMG and CAT_IMG.endswith((".jpg", ".jpeg", ".png")):
                 result = builder.photo(
                     CAT_IMG,
-                    # title="Alive cat",
+                    # title="Alive war",
                     text=query,
                     buttons=buttons,
                 )
             elif CAT_IMG:
                 result = builder.document(
                     CAT_IMG,
-                    title="Alive cat",
+                    title="Alive war",
                     text=query,
                     buttons=buttons,
                 )
             else:
                 result = builder.article(
-                    title="Alive cat",
+                    title="Alive war",
                     text=query,
                     buttons=buttons,
                 )
@@ -579,7 +579,7 @@ async def inline_handler(event):  # sourcery no-metrics
             type="photo",
             title="𝘾𝙖𝙩𝙐𝙨𝙚𝙧𝙗𝙤𝙩",
             description="Deploy yourself",
-            url="https://github.com/waruserbot/waruserbot",
+            url="https://github.com/xAbhish3k/waruserbot",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
