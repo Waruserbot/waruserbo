@@ -42,7 +42,7 @@ from . import (
 LOGS = logging.getLogger(__name__)
 plugin_category = "misc"
 
-# Catuserbot Google Drive managers  ported from Projectbish and added extra things by @mrconfused
+# waruserbot Google Drive managers  ported from Projectbish and added extra things by @mrconfused
 
 
 # =========================================================== #
@@ -607,7 +607,7 @@ async def upload(gdrive, service, file_path, file_name, mimeType, dir_id=None):
         pass
     body = {
         "name": file_name,
-        "description": "Uploaded from Telegram using Catuserbot.",
+        "description": "Uploaded from Telegram using Waruserbot.",
         "mimeType": mimeType,
         "parents": [dir_id] if dir_id is not None else [GDRIVE_.parent_Id],
     }
