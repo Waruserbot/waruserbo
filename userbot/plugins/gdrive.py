@@ -42,7 +42,7 @@ from . import (
 LOGS = logging.getLogger(__name__)
 plugin_category = "misc"
 
-# waruserbot Google Drive managers  ported from Projectbish and added extra things by @mrconfused
+# waruserbot Google Drive managers  ported from Projectbish and added extra things
 
 
 # =========================================================== #
