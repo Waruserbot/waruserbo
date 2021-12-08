@@ -15,7 +15,7 @@ plugin_category = "fun"
     info={
         "header": "stretches the given text",
         "usage": ["{tr}str <text>", "{tr}str reply this command to text message"],
-        "examples": "{tr}str catuserbot",
+        "examples": "{tr}str waruserbot",
     },
 )
 async def stretch(stret):
