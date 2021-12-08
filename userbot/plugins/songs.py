@@ -1,5 +1,3 @@
-
-
 # songs finder for waruserbot
 import asyncio
 import base64
