@@ -1,5 +1,5 @@
-# Made by @mrconfused and @sandy1709
-# memify plugin for catuserbot
+
+# memify plugin for waruserbot
 import asyncio
 import base64
 import io
