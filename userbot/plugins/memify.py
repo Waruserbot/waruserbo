@@ -1,4 +1,3 @@
-
 # memify plugin for waruserbot
 import asyncio
 import base64
