@@ -1,6 +1,6 @@
-# by  @sandy1709 ( https://t.me/mrconfused  )
 
-# songs finder for catuserbot
+
+# songs finder for waruserbot
 import asyncio
 import base64
 import io
