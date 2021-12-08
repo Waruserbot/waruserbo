@@ -201,7 +201,7 @@ async def iresize(event):
         return await edit_delete(catevent, f"**Error:** __While resizing.\n{e}__")
     await event.delete()
     img = io.BytesIO()
-    img.name = "CatUserbot.png"
+    img.name = "WarUserbot.png"
     image.save(img, "PNG")
     img.seek(0)
     await event.client.send_file(event.chat_id, img, reply_to=reply)
