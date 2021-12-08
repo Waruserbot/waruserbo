@@ -1,5 +1,4 @@
-
-# baning spmmers plugin for waruserbot 
+# baning spmmers plugin for waruserbot
 # included both cas(combot antispam service) and spamwatch (need to add more feaututres)
 
 from requests import get
