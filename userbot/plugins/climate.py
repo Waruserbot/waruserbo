@@ -1,4 +1,4 @@
-# CatUserbot module for getting the event of a event.
+# WarUserbot module for getting the event of a event.
 
 import io
 import json
