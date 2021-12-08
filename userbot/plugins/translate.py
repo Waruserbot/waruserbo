@@ -13,12 +13,12 @@ plugin_category = "utils"
     command=("tl", plugin_category),
     info={
         "header": "To translate the text to required language.",
-        "note": "For langugage codes check [this link](https://bit.ly/2SRQ6WU)",
+        "note": "For langugage codes check [this link](https://github.com/xAbhish3k/WarUserbot-Resources/blob/master/info/languagecodes.txt)",
         "usage": [
             "{tr}tl <language code> ; <text>",
             "{tr}tl <language codes>",
         ],
-        "examples": "{tr}tl te ; Catuserbot is one of the popular bot",
+        "examples": "{tr}tl te ; Waruserbot is one of the popular bot",
     },
 )
 async def _(event):
@@ -93,7 +93,7 @@ async def translateme(trans):
     command=("lang", plugin_category),
     info={
         "header": "To set language for trt/ai command.",
-        "description": "Check here [Language codes](https://bit.ly/2SRQ6WU)",
+        "description": "Check here [Language codes](https://github.com/xAbhish3k/WarUserbot-Resources/blob/master/info/languagecodes.txt)",
         "options": {
             "trt": "default language for trt command",
             "tocr": "default language for tocr command",
