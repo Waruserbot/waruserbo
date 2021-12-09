@@ -312,15 +312,15 @@ async def upstream(event):
 
 
 @catub.cat_cmd(
-    pattern="goodcat$",
-    command=("goodcat", plugin_category),
+    pattern="waruserbot$",
+    command=("waruserbot", plugin_category),
     info={
-        "header": "To update to goodcat( For vEg peeps).",
-        "usage": "{tr}goodcat",
+        "header": "To update to waruserbot.",
+        "usage": "{tr}waruserbot",
     },
 )
 async def variable(var):
-    "To update to goocat."
+    "To update to waruserbot."
     if Config.HEROKU_API_KEY is None:
         return await edit_delete(
             var,
@@ -334,5 +334,5 @@ async def variable(var):
             "Set the required var in heroku to function this normally `HEROKU_APP_NAME`.",
         )
     heroku_var = app.config()
-    await edit_or_reply(var, "`Changing badcat to goodcat wait for 2-3 minutes.`")
+    await edit_or_reply(var, "`Restarting wait for 2-3 minutes.`")
     heroku_var["UPSTREAM_REPO"] = "https://github.com/waruserbot/waruserbot"
