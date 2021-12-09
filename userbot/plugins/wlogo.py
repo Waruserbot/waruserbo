@@ -20,7 +20,7 @@ PICS_STR = []
     info={
         "header": "Logo Maker Plugin",
         "examples": "{tr}wlogo waruserbot",
-        "Added wlogo by @xAbhish3k",
+        "Added wlogo by xAbhish3k",
         "usage": [
             "{tr}wlogo <your name>",
             "{tr}wlogo <your name> <reply to a pic>",
