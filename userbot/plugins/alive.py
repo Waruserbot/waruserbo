@@ -116,7 +116,6 @@ async def amireallyalive(event):
     cat_caption += f"**{EMOJI} Owner:** {mention}\n"
     cat_caption += f"**{EMOJI} Master:** [Abhishek 🇮🇳](https://t.me/xAbhish3k)\n"
 
-
     results = await event.client.inline_query(Config.TG_BOT_USERNAME, cat_caption)
     await results[0].click(event.chat_id, reply_to=reply_to_id, hide_via=True)
     await event.delete()
