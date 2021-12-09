@@ -18,7 +18,7 @@ PICS_STR = []
     pattern="wlogo ?(.*)",
     command=("wlogo", plugin_category),
     info={
-        "header": "Logo Maker Plugin",
+        "header": "Logo Maker Plugin Added by @xAbhish3k",
         "examples": "{tr}wlogo waruserbot",
         "usage": [
             "{tr}wlogo <your name>",
