@@ -20,7 +20,7 @@ bot = catub
 StartTime = time.time()
 catversion = "3.0.4"
 
-if Config.UPSTREAM_REPO == "waruser":
+if Config.UPSTREAM_REPO == "waruserbot":
     UPSTREAM_REPO_URL = "https://github.com/xAbhish3k/waruserbot"
 elif Config.UPSTREAM_REPO == "warusers":
     UPSTREAM_REPO_URL = "https://github.com/xAbhish3k/waruserbot"
