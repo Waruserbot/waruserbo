@@ -46,7 +46,7 @@ async def amireallyalive(event):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
     ALIVE_TEXT = (
-        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥 WARUSERBOT IS RUNNING SUCCESSFULLY ❤️‍🔥**"
+        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ❤️‍🔥**"
     )
     CAT_IMG = (
         gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
@@ -84,13 +84,13 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} Owner:** {mention}
-**{EMOJI} Uptime :** `{uptime}`
-**{EMOJI} Telethon Version :** `{telever}`
-**{EMOJI} Waruserbot Version :** `{catver}`
-**{EMOJI} Python Version :** `{pyver}`
-**{EMOJI} Database :** `{dbhealth}`
-{EMOJI} Master :[Abhishek](https://t.me/xAbhish3k)"""
+**{EMOJI} ᴏᴡɴᴇʀ :** {mention}
+**{EMOJI} ᴜᴘᴛɪᴍᴇ :** `{uptime}`
+**{EMOJI} ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{telever}`
+**{EMOJI} ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{catver}`
+**{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`
+**{EMOJI} ᴅᴀᴛᴀʙᴀꜱᴇ :** `{dbhealth}`
+**{EMOJI} ᴍᴀꜱᴛᴇʀ :**[Abhishek](https://t.me/xAbhish3k)"""
 
 
 @catub.cat_cmd(
