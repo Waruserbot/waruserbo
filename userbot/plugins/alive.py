@@ -90,7 +90,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} Waruserbot Version :** `{catver}`
 **{EMOJI} Python Version :** `{pyver}`
 **{EMOJI} Database :** `{dbhealth}`
-**{EMOJI} Master :** `[Abhishek](https://t.me/xAbhish3k)`"""
+{EMOJI} Master :[Abhishek](https://t.me/xAbhish3k)"""
 
 
 @catub.cat_cmd(
