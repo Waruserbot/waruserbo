@@ -90,7 +90,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{catver}`
 **{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`
 **{EMOJI} ᴅᴀᴛᴀʙᴀꜱᴇ :** `{dbhealth}`
-**{EMOJI} ᴍᴀꜱᴛᴇʀ :**[Abhishek](https://t.me/xAbhish3k)"""
+**{EMOJI} ᴍᴀꜱᴛᴇʀ :** [Abhishek 🇮🇳](https://t.me/xAbhish3k)"""
 
 
 @catub.cat_cmd(
