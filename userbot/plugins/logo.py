@@ -47,8 +47,8 @@ plugin_category = "useless"
             "{tr}slogo <text>",
         ],
         "examples": [
-            "{tr}logo Cat",
-            "{tr}slogo Cat",
+            "{tr}logo Cutecat",
+            "{tr}slogo cutecat",
         ],
     },
 )
