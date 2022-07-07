@@ -18,7 +18,7 @@ LOGS = logging.getLogger("WarUserbot")
 bot = catub
 
 StartTime = time.time()
-warversion = "3.1.1"
+catversion = "3.1.1"
 
 if Config.UPSTREAM_REPO == "waruserbot":
     UPSTREAM_REPO_URL = "https://github.com/xAbhish3k/waruserbot"
