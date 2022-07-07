@@ -51,7 +51,7 @@ async def startup_process():
     print("Yay your userbot is officially working.!!!")
     print(
         f"Congratulation, now type {cmdhr}alive to see message if warub is live\
-        \nIf you need assistance, head to https://t.me/warbotzsupport"
+        \nIf you need assistance, head to https://t.me/waruserbotsupport"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()
