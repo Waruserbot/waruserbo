@@ -32,12 +32,12 @@ async def Logo(odi):
     if not text:
         await evxnt.edit("`Give some text to make a logo`")
         return
-    fnt = await get_font_file(odi.client, "@WarFont1")
+    fnt = await get_font_file(odi.client, "@BgBin")
     if odi.reply_to_msg_id:
         rply = await odi.get_reply_message()
         logo_ = await rply.download_media()
     else:
-        async for i in bot.iter_messages(f"@warBg1", filter=InputMessagesFilterPhotos):
+        async for i in bot.iter_messages(f"@FontsBin", filter=InputMessagesFilterPhotos):
             PICS_STR.append(i)
         pic = random.choice(PICS_STR)
         logo_ = await pic.download_media()
