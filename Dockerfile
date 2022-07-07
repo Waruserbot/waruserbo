@@ -1,4 +1,4 @@
-FROM waruserbot/waruserbot:main
+FROM waruserbot/waruserbot:slim-buster
 
 #clonning repo 
 RUN git clone https://github.com/Waruserbot/waruserbot.git /root/userbot
