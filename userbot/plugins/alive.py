@@ -90,8 +90,9 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{catver}`
 **{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`
 **{EMOJI} ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ:** [ᴡᴀʀᴜꜱᴇʀʙᴏᴛ](https://t.me/waruserbot)
-
 **{EMOJI} ʀᴇᴘᴏ :** [waruserbot](https://Github.com/xAbhish3k/Waruserbot)"""
+
+
 
 @catub.cat_cmd(
     pattern="ialive$",
