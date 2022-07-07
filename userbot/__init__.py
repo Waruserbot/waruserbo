@@ -15,7 +15,7 @@ __copyright__ = "WarUserBot Copyright (C) 2020 - 2021  " + __author__
 catub.version = __version__
 catub.tgbot.version = __version__
 LOGS = logging.getLogger("WarUserbot")
-bot = warub
+bot = catub
 
 StartTime = time.time()
 warversion = "3.1.1"
