@@ -44,9 +44,9 @@ async def amireallyalive(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "✥"
     ALIVE_TEXT = (
-        gvarstatus("ALIVE_TEXT") or "**❤️‍🔥ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ❤️‍🔥**"
+        gvarstatus("ALIVE_TEXT") or "**ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ**"
     )
     CAT_IMG = (
         gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
@@ -90,7 +90,7 @@ temp = """{ALIVE_TEXT}
 **{EMOJI} ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `{catver}`
 **{EMOJI} ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ :** `{pyver}`
 **{EMOJI} ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ:** [ᴡᴀʀᴜꜱᴇʀʙᴏᴛ](https://t.me/waruserbot)
-**{EMOJI} ᴄʀᴇᴀᴛᴏʀ :** [Abhishek 🇮🇳](https://t.me/xAbhish3k)
+
 **{EMOJI} ʀᴇᴘᴏ :** [waruserbot](https://Github.com/xAbhish3k/Waruserbot)"""
 
 @catub.cat_cmd(
@@ -107,7 +107,7 @@ temp = """{ALIVE_TEXT}
 async def amireallyalive(event):
     "A kind of showing bot details by your inline bot"
     reply_to_id = await reply_id(event)
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "❤️‍🔥"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "✥"
 
     cat_caption = "**Waruserbot is Up and Running**\n"
     cat_caption += f"**{EMOJI} Telethon version :** `{version.__version__}\n`"
