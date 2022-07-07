@@ -49,7 +49,7 @@ async def amireallyalive(event):
         gvarstatus("ALIVE_TEXT") or "**ᴡᴀʀᴜꜱᴇʀʙᴏᴛ ɪꜱ ʀᴜɴɴɪɴɢ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ**"
     )
     CAT_IMG = (
-        gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg"
+        gvarstatus("ALIVE_PIC") or ""
     )
     cat_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = cat_caption.format(
