@@ -48,7 +48,7 @@ autopic_path = os.path.join(os.getcwd(), "userbot", "original_pic.png")
 digitalpic_path = os.path.join(os.getcwd(), "userbot", "digital_pic.png")
 autophoto_path = os.path.join(os.getcwd(), "userbot", "photo_pfp.png")
 
-digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/aeaebe33b1f3988a0b690.jpg"
+digitalpfp = Config.DIGITAL_PIC or "https://telegra.ph/file/46ed65e7a11107c0d2fe7.jpg"
 
 COLLECTION_STRINGS = {
     "batmanpfp_strings": [
