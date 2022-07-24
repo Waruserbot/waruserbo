@@ -6,11 +6,11 @@ import os
 from typing import Set
 
 from telethon.tl.types import ChatBannedRights
+from validators.url import url
 
 
 class Config(object):
     LOGGER = True
-
     # MUST NEEDED VARS
     # set this value with your name
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
@@ -19,7 +19,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH") or None
     # Datbase url heroku sets it automatically else get this from elephantsql
     DB_URI = os.environ.get("DATABASE_URL", None)
-    # Get this value by running python3 stringsetup.py or https://generatestringsession.xabhish3k.repl.run
+    # Get this value by running python3 stringsetup.py or https://repl.it/@sandeep1709/generatestringsession
     STRING_SESSION = os.environ.get("STRING_SESSION", None)
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
@@ -30,12 +30,24 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/waruserbot/waruserbot.git"
+        "UPSTREAM_REPO", "https://github.com/xabhish3k/waruserbot"
     )
-
+    # External plugins repo
+    EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
+    if bool(EXTERNAL_REPO and (EXTERNAL_REPO.lower() != "false")):
+        if not url(EXTERNAL_REPO):
+            EXTERNAL_REPO = "https://github.com/xabhish3k/waruserbot"
+    else:
+        EXTERNAL_REPO = None
+    # if you need badcat plugins use the following vars
+    BADCAT = os.environ.get("BADCAT", False)
+    BADCAT = bool(BADCAT and (BADCAT.lower() != "false"))
+    # for vc plugins
+    VCMODE = os.environ.get("VCMODE", False)
+    VCMODE = bool(VCMODE and (VCMODE.lower() != "false"))
+    VC_SESSION = os.environ.get("VC_SESSION", None)
     # BASIC and MAIN CONFIG VARS
     # for profile default name
-    AUTONAME = os.environ.get("AUTONAME", None)
     # Set this value with group id of private group(can be found this value by .id)
     PRIVATE_GROUP_BOT_API_ID = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or 0)
     # Set this value same as PRIVATE_GROUP_BOT_API_ID if you need pmgaurd
@@ -61,21 +73,13 @@ class Config(object):
     # set this will channel id of your custom plugins
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL") or 0)
     # set this value with your required name for telegraph plugin
-    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "waruserbot")
+    TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "catuserbot")
     # for custom thumb image set this with your required thumb telegraoh link
     THUMB_IMAGE = os.environ.get(
-        "THUMB_IMAGE", "https://telegra.ph/file/0bfcbfcb2ae247117a77b.jpg"
+        "THUMB_IMAGE", "https://telegra.ph/file/ca95524e4734b0d5461b5.jpg"
     )
     # specify NO_LOAD with plugin names for not loading in userbot
-    NO_LOAD = [x for x in os.environ.get("NO_LOAD", "").split()]
-    # for custom pic for .digitalpfp
-    DIGITAL_PIC = os.environ.get("DIGITAL_PIC", None)
-    # your default pic telegraph link
-    DEFAULT_PIC = os.environ.get("DEFAULT_PIC", None)
-    # set this with your default bio
-    DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
-    # set this with your deafult name
-    DEFAULT_NAME = os.environ.get("DEFAULT_NAME", None)
+    NO_LOAD = list(os.environ.get("NO_LOAD", "").split())
     # specify command handler that should be used for the plugins
     # this should be a valid "regex" pattern
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
@@ -84,12 +88,8 @@ class Config(object):
     TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "downloads")
     # set this with required folder path to act as temparary folder
     TEMP_DIR = os.environ.get("TEMP_DIR", "./temp/")
-    # time to update autoprofile cmds
-    CHANGE_TIME = int(os.environ.get("CHANGE_TIME", 60))
     # SpamWatch, CAS, SpamProtection ban Needed or not
     ANTISPAMBOT_BAN = os.environ.get("ANTISPAMBOT_BAN", False)
-    # is dual logging needed or not true or false
-    DUAL_LOG = os.environ.get("DUAL_LOG", False)
     # progress bar progress
     FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "▰")
     UNFINISHED_PROGRESS_STR = os.environ.get("UNFINISHED_PROGRESS_STR", "▱")
@@ -129,10 +129,11 @@ class Config(object):
     LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
     LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
     LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", None)
+    # Spotify API for spotify.py // get from here :  https://developer.spotify.com/dashboard/login
+    SPOTIFY_CLIENT_ID = os.environ.get("SPOTIFY_CLIENT_ID", None)
+    SPOTIFY_CLIENT_SECRET = os.environ.get("SPOTIFY_CLIENT_SECRET", None)
     # SpamWatch API you can get it from get api from http://t.me/SpamWatchBot?start=token
     SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
-    # can get from https://coffeehouse.intellivoid.net/
-    RANDOM_STUFF_API_KEY = os.environ.get("RANDOM_STUFF_API_KEY", None)
     # github vars
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
@@ -166,6 +167,12 @@ class Config(object):
     CATUBLOGO = None
     BOTLOG = False
     BOTLOG_CHATID = 0
+    # extra plugins realted vars below  4
+    EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "main")
+    BADCAT_REPO = os.environ.get("BADCAT_REPO", "https://github.com/xabhish3k/waruserbot")
+    if BADCAT_REPO and not url(BADCAT_REPO):
+        BADCAT_REPO = "https://github.com/xabhish3k/waruserbot"
+    BADCAT_REPOBRANCH = os.environ.get("BADCAT_REPOBRANCH", "waruserbot")
 
 
 class Production(Config):
